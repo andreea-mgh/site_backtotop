@@ -30,12 +30,18 @@ header {
 }
 
 .content p {
-    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .content img {
     width: 100%;
-    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.8em;
+    text-align: center;
 }
 
 @media (min-width: 600px) {
