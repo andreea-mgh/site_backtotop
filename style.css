@@ -44,7 +44,7 @@ figcaption {
     text-align: center;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .content {
         width: 500px;
         margin: 0 auto;
@@ -52,9 +52,10 @@ figcaption {
 }
 
 #back-to-top {
+    font-size: 1.5rem;
     display: none;
     position: fixed;
-    bottom: 20px;
+    bottom: 0px;
     right: 20px;
     z-index: 99;
     border: none;
@@ -63,7 +64,7 @@ figcaption {
     color: white;
     cursor: pointer;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
 }
 
 #back-to-top:hover {
